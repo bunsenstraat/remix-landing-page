@@ -20,6 +20,21 @@
     "react-dom": "19.2.4",
     "tailwindcss": "^4.2.4"
   },
+  "browserslist": {
+    "production": [
+      "chrome >= 80",
+      "firefox >= 78",
+      "safari >= 14",
+      "edge >= 80",
+      "not IE 11",
+      "not dead"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^19",

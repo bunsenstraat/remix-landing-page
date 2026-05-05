@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import { Nunito_Sans, Cabin } from "next/font/google";
 import Script from "next/script";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 import "./globals.css";
+
+// Prevent FontAwesome from injecting its CSS via JS on every render.
+// The CSS is loaded once above as a static import instead.
+config.autoAddCss = false;
 
 const nunitoSans = Nunito_Sans({
   subsets: ["latin", "latin-ext"],

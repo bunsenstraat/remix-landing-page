@@ -73,6 +73,7 @@ function DropdownItem({ child }: { child: NavChild }) {
             src="/assets/nav/189db99c60a28704a3e4c57a7b6b7c1dbdfd618d.svg"
             alt=""
             fill
+            sizes="16px"
             className="object-contain"
           />
         </div>
