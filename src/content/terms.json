@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "Terms & Conditions — Remix",
+    "description": "Terms and conditions for using Remix IDE and remix.ethereum.org."
+  },
+  "eyebrow": "Legal",
+  "title": "Terms & Conditions",
+  "lastUpdated": "Last updated: April 2026",
+  "sections": [
+    {
+      "id": "acceptance",
+      "title": "1. Acceptance of Terms",
+      "content": "By accessing or using Remix IDE (\"Remix\", \"the Service\") at remix.ethereum.org or via the Remix Desktop application, you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use the Service.\n\nRemix is provided by the Ethereum Foundation as a free, open-source public good. These terms govern your use of the hosted service; the open-source software itself is governed by the MIT License."
+    },
+    {
+      "id": "use",
+      "title": "2. Use of the Service",
+      "content": "Remix is a development environment for writing, testing, and deploying smart contracts. You may use the Service for any lawful purpose.\n\nYou agree not to use the Service to:\n• Deploy malicious contracts designed to defraud users\n• Conduct denial-of-service attacks against Remix infrastructure\n• Attempt to gain unauthorized access to Remix systems\n• Violate any applicable laws or regulations\n\nWe reserve the right to suspend access for users who violate these terms."
+    },
+    {
+      "id": "intellectual-property",
+      "title": "3. Intellectual Property",
+      "content": "The Remix source code is licensed under the MIT License and is available at github.com/ethereum/remix-project. You are free to use, copy, modify, and distribute the software under the terms of the MIT License.\n\nThe Remix name, logo, and branding are owned by the Ethereum Foundation. You may not use these in a way that implies endorsement without written permission."
+    },
+    {
+      "id": "disclaimer",
+      "title": "4. Disclaimer of Warranties",
+      "content": "Remix is provided \"as is\" without warranty of any kind. The Ethereum Foundation makes no warranties, express or implied, including but not limited to:\n\n• Fitness for a particular purpose\n• Accuracy or completeness of the Service\n• Uninterrupted or error-free operation\n• Security of smart contracts compiled or deployed through the Service\n\nSmart contract development carries significant risk. You are solely responsible for the security and correctness of any contracts you deploy."
+    },
+    {
+      "id": "liability",
+      "title": "5. Limitation of Liability",
+      "content": "To the maximum extent permitted by applicable law, the Ethereum Foundation shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of or inability to use the Service.\n\nThis includes, without limitation, loss of funds due to smart contract bugs, exploits, or incorrect deployment. Always audit your contracts and use testnets before deploying to mainnet."
+    },
+    {
+      "id": "privacy",
+      "title": "6. Privacy",
+      "content": "Remix IDE runs primarily in your browser. We do not collect personal data from the IDE itself. Workspace files are stored locally in your browser (IndexedDB) or in your connected file system.\n\nIf you use RemixAI features, queries may be sent to third-party AI providers. Please review their respective privacy policies.\n\nWe use basic analytics (page views, error tracking) on remix.ethereum.org to improve the service. No personally identifiable information is collected."
+    },
+    {
+      "id": "changes",
+      "title": "7. Changes to Terms",
+      "content": "We may update these Terms from time to time. Continued use of the Service after changes are posted constitutes acceptance of the revised terms. Significant changes will be announced via our GitHub repository and community channels."
+    },
+    {
+      "id": "contact",
+      "title": "8. Contact",
+      "content": "For questions about these Terms, please open an issue on GitHub at github.com/ethereum/remix-project or contact the Remix team through our community channels."
+    }
+  ]
+}
